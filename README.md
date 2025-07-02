@@ -1,12 +1,22 @@
-# React + Vite
+# Web3 Login Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and animated Web3 login demo that allows users to authenticate using MetaMask and access a personalized dashboard. This template is designed for developers building decentralized applications (dApps) with wallet-based authentication.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- MetaMask wallet login via Ethers.js
+- Display wallet address and ETH balance
+- Redirect to dashboard on successful login
+- Animated page transitions using Framer Motion
+- Vanta.js background integration for dynamic visuals
+- PageWrapper layout abstraction for cleaner routing
+- Responsive and modern UI with CSS Modules
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- Ethers.js v6
+- Framer Motion (animations)
+- Vanta.js (animated background)
+- React Router DOM (routing)
+- CSS Modules (scoped styling)
